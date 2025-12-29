@@ -1,35 +1,28 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 
-// Dropbox direct link (raw=1 ensures it streams properly as a file)
-const VIDEO_URL = "https://www.dropbox.com/scl/fi/cwsvk1x20zgtg6mrfbjfg/abstract-yellow-background-3d-animation-2025-12-09-12-35-49-utc.mp4?rlkey=l4471bd61bc2fmy6qr4ginq23&st=17i40ck9&raw=1";
+// Using a static abstract image to match the "calm" reference better than a video
+const HERO_IMAGE = "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2800&auto=format&fit=crop"; 
 
 export const FeatureImage: React.FC = () => {
-  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
-
   return (
-    <div className="w-full flex justify-center px-6 md:px-8">
+    <div className="w-full flex justify-center px-4 md:px-6">
       <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: isVideoLoaded ? 1 : 0 }}
-        transition={{ duration: 0.7, ease: "easeOut" }}
-        className="w-full max-w-[1400px] relative mt-[80px] md:mt-[100px] mb-[70px] md:mb-[90px]"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        className="w-full max-w-[1400px] relative mt-[60px] md:mt-[80px] mb-[80px] md:mb-[120px]"
       >
         <div 
-          className="w-full relative overflow-hidden rounded-[20px] md:rounded-[30px] bg-gray-50"
-          style={{
-            boxShadow: '0 30px 40px rgba(0,0,0,0.08)', // Soft, deep shadow
-          }}
+          className="w-full relative overflow-hidden rounded-[20px] md:rounded-[32px] bg-gray-100 aspect-[4/3] md:aspect-[16/9] lg:aspect-[21/9]"
         >
-          <video
-            src={VIDEO_URL}
-            autoPlay
-            muted
-            loop
-            playsInline
-            onLoadedData={() => setIsVideoLoaded(true)}
-            className="w-full object-cover h-[300px] md:h-[60vh] lg:h-[80vh] pointer-events-none"
+          <img
+            src={HERO_IMAGE}
+            alt="Abstract Hero"
+            className="w-full h-full object-cover"
           />
+          {/* Overlay for soft grain/texture if needed */}
+          <div className="absolute inset-0 bg-black/2 pointer-events-none" />
         </div>
       </motion.div>
     </div>
