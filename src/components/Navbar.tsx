@@ -32,7 +32,7 @@ export const Navbar: React.FC = () => {
           {/* Left: Logo */}
           <div className="flex-shrink-0 z-20">
             <Link to="/" className="font-sans font-medium text-[15px] tracking-tight text-black hover:opacity-70 transition-opacity">
-              Last Studio
+              Yellow Studio
             </Link>
           </div>
 

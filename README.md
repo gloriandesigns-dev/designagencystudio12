@@ -1,6 +1,6 @@
-# Last Studio - Landing Page Implementation
+# Yellow Studio - Landing Page Implementation
 
-This project is a pixel-perfect implementation of the Last Studio landing page, featuring a high-contrast editorial design, responsive layouts, and smooth interactions.
+This project is a pixel-perfect implementation of the Yellow Studio landing page, featuring a high-contrast editorial design, responsive layouts, and smooth interactions.
 
 ## 📁 Image Placeholders & Swapping
 

@@ -27,7 +27,7 @@ export const PrivacyPolicy: React.FC = () => {
                 Last updated: June 2025
               </p>
               <p>
-                At Last Studio, we respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you.
+                At Yellow Studio, we respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you.
               </p>
               
               <h2 className="font-sans font-bold text-[18px] uppercase mt-8">1. Information We Collect</h2>
@@ -52,7 +52,7 @@ export const PrivacyPolicy: React.FC = () => {
 
               <h2 className="font-sans font-bold text-[18px] uppercase mt-8">4. Contact Us</h2>
               <p>
-                If you have any questions about this privacy policy or our privacy practices, please contact us at hello@laststudio.com.
+                If you have any questions about this privacy policy or our privacy practices, please contact us at hello@yellowstudio.com.
               </p>
             </div>
           </Reveal>

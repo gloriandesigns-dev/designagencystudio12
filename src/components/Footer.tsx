@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
             <a href="#" className="font-sans text-[13px] text-black hover:opacity-60 transition-opacity">LinkedIn</a>
             <a href="#" className="font-sans text-[13px] text-black hover:opacity-60 transition-opacity">Facebook</a>
             <a href="#" className="font-sans text-[13px] text-black hover:opacity-60 transition-opacity">Instagram</a>
-            <a href="mailto:hello@laststudio.com" className="font-sans text-[13px] text-black hover:opacity-60 transition-opacity">Email us</a>
+            <a href="mailto:hello@yellowstudio.com" className="font-sans text-[13px] text-black hover:opacity-60 transition-opacity">Email us</a>
           </div>
 
           {/* Column 3: LEGAL */}
@@ -43,7 +43,7 @@ export const Footer: React.FC = () => {
         {/* Footer Signature */}
         <div className="w-full flex justify-center mt-12 pt-12">
           <h1 className="font-serif text-[14vw] leading-[0.8] text-black text-center tracking-tight">
-            LAST STUDIO
+            YELLOW STUDIO
           </h1>
         </div>
 

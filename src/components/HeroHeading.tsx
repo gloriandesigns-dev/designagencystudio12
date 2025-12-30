@@ -16,7 +16,7 @@ export const HeroHeading: React.FC = () => {
         <div className="relative inline-block">
           {/* Editorial Heading */}
           <h1 className="font-serif font-normal text-[64px] sm:text-[100px] md:text-[160px] lg:text-[190px] leading-[0.85] tracking-tight text-black relative z-10">
-            LAST STUDIO
+            YELLOW STUDIO
           </h1>
           
           {/* Accent Lines (Top Right near 'O') - Hand drawn look */}

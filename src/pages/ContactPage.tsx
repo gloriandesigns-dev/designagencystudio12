@@ -118,7 +118,7 @@ export const ContactPage: React.FC = () => {
               <Reveal>
                 <div className="flex justify-between items-baseline border-b border-gray-100 pb-4">
                   <span className="font-sans text-[12px] font-bold uppercase tracking-wide text-black">NEW BUSINESS</span>
-                  <a href="mailto:business@laststudio.com" className="font-sans text-[14px] text-black hover:opacity-60 transition-opacity underline decoration-gray-300 underline-offset-4">business@email.com</a>
+                  <a href="mailto:business@yellowstudio.com" className="font-sans text-[14px] text-black hover:opacity-60 transition-opacity underline decoration-gray-300 underline-offset-4">business@email.com</a>
                 </div>
               </Reveal>
 
@@ -126,7 +126,7 @@ export const ContactPage: React.FC = () => {
               <Reveal delay={0.1}>
                 <div className="flex justify-between items-baseline border-b border-gray-100 pb-4">
                   <span className="font-sans text-[12px] font-bold uppercase tracking-wide text-black">GENERAL CONTACT</span>
-                  <a href="mailto:hi@laststudio.com" className="font-sans text-[14px] text-black hover:opacity-60 transition-opacity underline decoration-gray-300 underline-offset-4">hi@email.com</a>
+                  <a href="mailto:hi@yellowstudio.com" className="font-sans text-[14px] text-black hover:opacity-60 transition-opacity underline decoration-gray-300 underline-offset-4">hi@email.com</a>
                 </div>
               </Reveal>
 

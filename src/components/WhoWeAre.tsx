@@ -39,7 +39,7 @@ export const WhoWeAre: React.FC = () => {
                 Get in touch &rarr;
               </a>
               <a href="#about" className="font-sans text-[12px] font-medium text-black border-b border-black/20 hover:border-black pb-0.5 transition-colors">
-                About Last Studio &rarr;
+                About Yellow Studio &rarr;
               </a>
             </div>
           </Reveal>
